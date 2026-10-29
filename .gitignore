@@ -1,4 +1,5 @@
 venv
+.venv
 mesa_spatial_sampling_MRS/__pycache__
 mesa_spatial_sampling_MRS/results
 !mesa_spatial_sampling_MRS/results/3robs_20x20_grid_sampling_all_cells/1/*animation.gif

@@ -500,7 +500,7 @@ class SpatialSamplingModel(Model):
         for f in old_figures:
             try:
                 os.remove(f)
-            except IsADirectoryError:
+            except (IsADirectoryError,PermissionError):
                 shutil.rmtree(f)
 
         # Make visualisation data folder if one doesn't exist in current directory
