@@ -20,9 +20,8 @@ You can provide the simulation with your own geolocated data for the robots to s
 in [Sampling Custom Data](/docs/custom-data.md).
 
 ## Dependencies
-The simulation runs entirely in Python 3, requiring the following packages to be 
-installed with:
-`pip install mesa numpy astar-python PyKrige matplotlib`.
+The simulation runs in Python 3.9.6, depending on the packages listed in `requirements.txt`. These can be installed by running
+`pip install -r requirements.txt`.
 The simulation has been tested to work on Ubuntu 18.04, Windows 10, and Windows 11. It may work on other operating systems,
 but these have not been tested.
 
